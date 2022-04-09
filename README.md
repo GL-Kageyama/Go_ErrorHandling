@@ -1,6 +1,10 @@
 # Go Error Handling
 
 ## Error Handling
+Error handling in Go is achieved by returning multiple values in a function.  
+The function returns the result of processing and the error value, and by checking the error value, the case of abnormal processing can be distinguished.  
+In case of normal processing, the error value is nil (Null).  
+If an error occurs, the error information is stored in the error value.  
 
 ## Code
 ```Go
